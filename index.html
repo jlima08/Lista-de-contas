@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 style="color: #fff;" >Lista de Contas</h2>
+
+  <input type="text" id="nomeConta" placeholder="Nome da conta">
+  <input type="number" id="valorConta" placeholder="Valor da conta" step="0.01">
+  <button class="add" onclick="adicionarConta()">Adicionar</button>
+
+  <ul id="listaContas"></ul>
+
+  <div class="total">Total: R$ <span id="totalValor">0.00</span></div>
+  
+  <script src="lista.js"></script>
+</body>
+</html>
